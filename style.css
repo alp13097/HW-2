@@ -12,19 +12,3 @@
 #contactContainer {
     background-color: white;
 }
-
-
-/* Adjusts how the info contaier adjusts to less than 768px */
-@media screen and (max-width: 768px) {
-    #infoContainer {
-        width: 600px;
-    }
-
-}
-
-/* Adjusts how the info container adjusts to less than 640px */
-@media screen and (max-width: 640px) {
-    #infoContainer {
-        width: 572px;
-    }
-}
