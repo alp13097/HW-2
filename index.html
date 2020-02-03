@@ -5,6 +5,8 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page Name -->
     <title>About Me</title>
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,39 +19,65 @@
 <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">Austin Pigg</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">About-Me<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact-Info</a>
-          </div>
-        </div>
-    </nav>
+    <section>
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <!-- Name -->
+            <a class="navbar-brand">Austin Pigg</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <!-- About Me Button/Link -->
+                <a class="nav-item nav-link active" href="index.html">About-Me<span class="sr-only">(current)</span></a>
+                <!-- Portfolio Button/Link -->
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <!-- Contact Info Button/Link-->
+                <a class="nav-item nav-link" href="contact.html">Contact-Info</a>
+            </div>
+            </div>
+        </nav>
+
+    </section>
+
 
     <div class="background"> <!-- Background image -->
 
         <br><br>
 
         <!-- My Info -->
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="images/image1.png" class="card-img" alt="Picture of Me">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <h5 class="card-title">About Me</h5>
-                <p class="card-text">Hey! My name is Austin Pigg and i'm studying to be a web developer. So far it isn't easy but I'm picking it up. <br><br> I Like to go to the gym or hangout with friends. I currently work at Carolina Springs Auto Spa in Cornelius, NC.</p>
+        <section>
+
+            <div class="container" id="infoContainer">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <!-- My Photo -->
+                                <div class="col-md-4">
+                                    <img src="images/image1.png" class="card-img" alt="Picture of Me">
+                                </div>
+                                <!-- My information -->
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">About Me</h5>
+                                        <p class="card-text">Hey! My name is Austin Pigg and i'm studying to be a web developer. So far it isn't easy but I'm picking it up. <br><br> I Like to go to the gym or hangout with friends. I currently work at Carolina Springs Auto Spa in Cornelius, NC.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
-    
+
+        </section>
+
+        <!-- Footer -->
+        <footer class="fixed-bottom">
+            <h6>Austin Pigg</h6>
+        </footer>
+
     </div>
 
 </body>

@@ -1,8 +1,30 @@
+/* Sets background image for each page */
 .background {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
+    /* Background image url */
     background-image: url("images/DWrZNO.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Creates white container to contain the contact info boxes */
+#contactContainer {
+    background-color: white;
+}
+
+
+/* Adjusts how the info contaier adjusts to less than 768px */
+@media screen and (max-width: 768px) {
+    #infoContainer {
+        width: 600px;
+    }
+
+}
+
+/* Adjusts how the info container adjusts to less than 640px */
+@media screen and (max-width: 640px) {
+    #infoContainer {
+        width: 572px;
+    }
 }

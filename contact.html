@@ -5,6 +5,8 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page Name -->
     <title>Contact</title>
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,25 +19,75 @@
 <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">Austin Pigg</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">About-Me<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link active" href="contact.html">Contact-Info</a>
+    <section>
+
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <!-- Name -->
+          <a class="navbar-brand">Austin Pigg</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <!-- About Me Button/Link -->
+              <a class="nav-item nav-link" href="index.html">About-Me<span class="sr-only">(current)</span></a>
+              <!-- Portfolio Button/Link -->
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <!-- Contact Info Button/Link -->
+              <a class="nav-item nav-link active" href="contact.html">Contact-Info</a>
+            </div>
+          </div>
+      </nav>
+
+    </section>
+
+
+    <div class="background"> <!-- Background Image -->
+
+      <br>
+
+      <!-- contact info form -->
+      <section>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" id="contactContainer">
+              <form>
+
+                <!-- Name Input -->
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+
+                <!-- Email Input -->
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+
+                <!-- Message Input -->
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+                <br>
+                <br>
+              </form>
+            </div>
           </div>
         </div>
-    </nav>
 
-    <div class="background"><!-- Background Image -->
+      </section>
 
-
-
-
+      <!-- Footer -->
+      <footer class="fixed-bottom">
+        <h6>Austin Pigg</h6>
+      </footer>
 
     </div>
     
