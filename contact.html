@@ -3,7 +3,6 @@
 
 <!-- Head -->
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Page Name -->
@@ -12,7 +11,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Link to style.css -->
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <!-- Bootstrap Javascript Links used to make nav button work on smaller screens -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Bootstrap Javascript Links used to make nav button work on smaller screens -->
 </head>
 
 
@@ -22,7 +25,7 @@
     <!-- Nav Bar -->
     <section>
 
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
           <!-- Name -->
           <a class="navbar-brand">Austin Pigg</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,24 +56,25 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-md-6" id="contactContainer">
+            <div class="col-md-2"></div>
+            <div class="col-md-8" id="contactContainer">
               <form>
 
                 <!-- Name Input -->
                 <div class="form-group">
-                  <label for="exampleFormControlInput1">Name</label>
+                  <label for="exampleFormControlInput1" class="txt" id="name">Name</label>
                   <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                 </div>
 
                 <!-- Email Input -->
                 <div class="form-group">
-                  <label for="exampleFormControlInput1">Email address</label>
+                  <label for="exampleFormControlInput1" class="txt">Email address</label>
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
 
                 <!-- Message Input -->
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
+                  <label for="exampleFormControlTextarea1" class="txt">Message</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
@@ -81,10 +85,12 @@
                 <br>
               </form>
             </div>
+            <div class="col-md-2"></div>
           </div>
         </div>
 
       </section>
+
 
       <!-- Footer -->
       <footer class="fixed-bottom">

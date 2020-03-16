@@ -10,5 +10,18 @@
 
 /* Creates white container to contain the contact info boxes */
 #contactContainer {
-    background-color: white;
+    background-color: rgb(54, 61, 63);
+    border-radius: 10px;
+}
+
+#name {
+    padding-top: 10px;
+}
+
+.txt {
+    color: white;
+}
+
+#cardBG {
+    background-color: rgb(54, 61, 63);
 }
