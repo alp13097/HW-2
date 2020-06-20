@@ -25,3 +25,13 @@ Changes made to this page:
 -Added picture of project 1 web page with a description and link to the active webpage and repo.
 -Updated color of nav bar
 -Fixed dropdown menu when used on a mobile device.
+
+## Screenshots
+
+![SS of app](images/AMPage.png "SS of About-Me page")
+
+![SS of app](images/Port1.png "SS of Portfolio page")
+
+![SS of app](images/Port2.png "SS of Portfolio page")
+
+![SS of app](images/CIPage.png "SS of Contact-Info page")
